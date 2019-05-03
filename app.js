@@ -8,8 +8,8 @@ const nodemailer = require('nodemailer');
 const app = express();
 
 
-app.engine('handlebars', exphbs());
-app.set('view engine', 'handlebars');
+app.engine('html', exphbs());
+app.set('view engine', 'html');
 
 app.use('/public', express.static(path.join(__dirname, 'public')));
 
@@ -17,7 +17,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 
 app.get('/', (req,res) => {
-    res.render('contact');
+    res.render('index');
 })
 
 app.post('/send', (req,res) => {
@@ -53,7 +53,7 @@ app.post('/send', (req,res) => {
 
     console.log("Message sent: %s", info.messageId);
     console.log("Preview URL: %s", nodemailer.getTestMessageUrl(info));
-    res.render('contact', {msg: 'Le message a bien été envoyé'})
+    res.render('index', {msg: 'Le message a bien été envoyé'})
 }
 
     )
