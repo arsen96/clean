@@ -11,7 +11,7 @@
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
     integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
-   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.4.0/dist/leaflet.css">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.4.0/dist/leaflet.css">
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.4.0/dist/leaflet.css"
     integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
     crossorigin="" />
@@ -19,7 +19,9 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery.nicescroll/3.7.6/zoomico.png">
   <link href="https://fonts.googleapis.com/css?family=Oswald|Permanent+Marker" rel="stylesheet">
-  <title>Clean Nettoyage</title>
+  <meta name="description"
+    content="L'entreprise Clean Nettoyage, basée à Pau est spécialisée dans le Nettoyage et propreté, Entretien des espaces verts, Services à la personne etc..">
+  <title>React App</title>
 </head>
 
 <body>
@@ -68,16 +70,16 @@
       </ol>
       <div class="carousel-inner" style="height:400px">
         <div class="carousel-item active">
-          <img src="../public/img/ankap/nettoyage2.jpg" class="d-block w-100" alt="..." />
+          <img src="../public/img/ankap/nettoyage2.jpg" class="d-block w-100" alt="clean_nettoyage 1" />
         </div>
         <div class="carousel-item">
-          <img src="../public/img/ankap/nettoyage4.jpg" class="d-block w-100" alt="..." />
+          <img src="../public/img/ankap/nettoyage4.jpg" class="d-block w-100" alt="clean_nettoyage 2" />
         </div>
         <div class="carousel-item">
-          <img src="../public/img/ankap/nettoyage3.jpg" class="d-block w-100" alt="..." />
+          <img src="../public/img/ankap/nettoyage3.jpg" class="d-block w-100" alt="clean_nettoyage 3" />
         </div>
         <div class="carousel-item">
-          <img src="../public/img/ankap/nettoyage.jpg" class="d-block w-100" alt="..." />
+          <img src="../public/img/ankap/nettoyage.jpg" class="d-block w-100" alt="clean_nettoyage 4" />
         </div>
 
       </div>
@@ -105,13 +107,13 @@
                 class="permanent-red word">entreprises</span></span> et <span class="ml15"><span
                 class="permanent-red word">collectivités</span></span> autour de Pau</h3>
           <p class="description-p rubik">
-            Clean Nettoyage a 10 années d'expériences en matière de service de nettoyage
+            <strong>Clean Nettoyage</strong> a 10 années d'expériences en matière de service de nettoyage
             dans la région de Pau. Quel que soit le type de surface à entretenir, vous pouvez compter sur
             nous pour le nettoyage des vitres et des sols.
             <br /><br />Grâce à nos matériels performants et notre personnel compétent, nous effectuons également divers
             travaux exceptionnels comme le traitement des sols thermoplastiques, le nettoyage de façade, de bâches et
-            auvents et bien plus.<br /><br /> 
-            Nettoyage de vos vitres ou de vos sols : Clean Nettoyage est un partenaire de choix des professionnels de la
+            auvents et bien plus.<br /><br />
+            Nettoyage de vos vitres ou de vos sols : <strong>Clean Nettoyage</strong>est un partenaire de choix des professionnels de la
             région de Pau à la recherche d’un service de nettoyage efficace.
           </p>
           <div class="container ">
@@ -126,7 +128,8 @@
         </div>
       </div>
       <div class="col-md-6 float-left">
-        <img src="../public/img/description/nettoyage.jpg" alt="" class="img-fluid wow fadeInRight" />
+        <img src="../public/img/description/nettoyage.jpg" alt="Environnement clean nettoyage"
+          class="img-fluid wow fadeInRight" />
       </div>
     </div>
   </div>
@@ -138,8 +141,8 @@
   <div class="parallaxImg mt-5 " style="position:relative">
     <div class="parallax-window" data-parallax="scroll" data-image-src="../public/img/parallax/nettoyage.jpg"
       style="color:white">
-      <div class="titleParallax col-sm-12 mx-auto"  style="position:absolute;top:35%;fontSize:1.9rem", }}>
-        <h3 class="text-center permanent">L’entreprise est spécialisée dans </h3>
+      <div class="titleParallax col-sm-12 mx-auto" style="position:absolute;top:35%;fontSize:1.9rem" , }}>
+        <h3 class="text-center permanent"><strong>Clean Nettoyage</strong> est spécialisée dans </h3>
         <p class="text-center oswald">
           Nettoyage et propreté, Entretien des espaces verts, Services à la personne.
         </p>
@@ -149,233 +152,292 @@
 
 
 
-   <div class="container wow animated fadeInUp delay-1s" >
-              <div class="row">
-                <div class="col-sm-12 py-5">
-                  <h2 class="text-center text-uppercase descTitle">Entreprise de nettoyage à Pau </h2>
-                  <p class="text-center descP pt-2">Vous cherchez une entreprise de nettoyage ? Besoin d’entretenir votre logement ? <br />Faites confiance à notre entreprise  à Pau et ses 10 ans d'expérience.</p>
+  <div class="container wow animated fadeInUp delay-1s">
+    <div class="row">
+      <div class="col-sm-12 py-5">
+        <h2 class="text-center text-uppercase descTitle">Entreprise de nettoyage à Pau </h2>
+        <p class="text-center descP pt-2">Vous cherchez une entreprise de nettoyage ? Besoin d’entretenir votre logement
+          ? <br />Faites confiance à notre entreprise à Pau et ses 10 ans d'expérience.</p>
+      </div>
+    </div>
+    <div class="text-center">
+      <button class="btn btn-info btn-lg "><a href="#sec3"
+          style="color:white; textDecoration:none ">Contactez-nous</a></button>
+    </div>
+  </div>
+
+
+
+
+
+  <section id="sec1">
+    <img src="../public/img/bar-vert.png" alt="" class="imgbar" style="width:100%" />
+    <div class="box animated" style="position:relative">
+      <h3 class="text-center pt-3 permanent">Nos engagements</h3>
+
+      <div class="container">
+        <div class="row text-center py-5 ">
+
+          <div class="col-sm-2 wow animated fadeInLeft ">
+            <img src="../public/img/AccueilIcon/contrat.png" class="img-fluid" alt="clean nettoyage devis" />
+            <p class="oswald pt-2 ">Devis précis</p>
+          </div>
+
+          <div class="col-sm-2 wow animated fadeInLeft">
+            <img src="../public/img/AccueilIcon/deplacement.png" class="img-fluid" alt="deplacement clean nettoyage" />
+            <p class="oswald pt-2 ">Déplacement</p>
+          </div>
+
+          <div class="col-sm-2 wow animated fadeInLeft">
+            <img src="../public/img/AccueilIcon/experience.png" class="img-fluid" alt="experience clean nettoyage" />
+            <p class="oswald pt-2 ">Expérience</p>
+          </div>
+
+          <div class="col-sm-2 wow animated fadeInRight">
+            <img src="../public/img/AccueilIcon/ouvrier.png" class="img-fluid" alt="competence clean nettoyage" />
+            <p class="oswald pt-2 ">Compétences</p>
+          </div>
+
+          <div class="col-sm-2 wow animated fadeInRight">
+            <img src="../public/img/AccueilIcon/ponctualité.png" class="img-fluid" alt="rapidite clean nettoyage" />
+            <p class="oswald pt-2 ">Rapidité</p>
+          </div>
+
+          <div class="col-sm-2 wow animated fadeInRight">
+            <img src="../public/img/AccueilIcon/telephone.png" class="img-fluid" alt="disponibilite clean nettoyage" />
+            <p class="oswald pt-2 ">Disponibilité</p>
+          </div>
+
+
+        </div>
+      </div>
+      <div class="col-12 boxText">
+        <h5 class="oswald text-center text-muted wow fadeIn">Faites appel à notre société afin de profiter de notre
+          <span class="permanent-red">savoir-faire</span> et de notre <span class="permanent-red">expérience</span> dans
+          la réalisation des <span class="permanent-red">travaux de nettoyage</span> et de <span
+            class="permanent-red">propreté professionnelle</span>. </h5>
+      </div>
+      <img src="../public/img/bar-vert2.png" alt="" class="imgbar" style="position:absolute; bottom: '0'" />
+    </div>
+  </section>
+
+
+
+
+
+
+
+  <section id="prestation" class="pt-5">
+    <div>
+      <section class="my-5">
+        <div class="container-fluid wow animated flipInY delay-1s">
+          <div class="row">
+            <div class="col-md-4 col-sm-12 d-flex align-items-stretch">
+              <div class="card text-center">
+                <div class="card-header text-uppercase permanent-blue" style="fontSize:1.35em">
+                  Nettoyage et propreté
+                </div>
+                <div class="card-body">
+                  <p class="card-text oswald">
+
+                    <strong>Clean Nettoyage</strong> effectue tous travaux de nettoyage :
+                    nettoyage industriel, nettoyage particulier, nettoyage bureau, nettoyage vitre, ménage, nettoyage
+                    sol et moquette, nettoyage camping, nettoyage après sinistre, nettoyage parking, nettoyage par
+                    balayage mécanique, nettoyage tertiaire, nettoyage de grande distribution, nettoyage de
+                    collectivités, nettoyage dans la santé, nettoyage dans l’hôtellerie, nettoyage dans la restauration.
+
+                  </p>
+
+                </div>
+                <div class="card-footer text-muted">
+                  <a href="#sec3" class="btn btn-primary">Demander un devis</a>
                 </div>
               </div>
-              <div class="text-center">
-                <button class="btn btn-info btn-lg "><a href="#sec3" style="color:white; textDecoration:none ">Contactez-nous</a></button>
+            </div>
+
+            <div class="col-md-4 col-sm-12 d-flex align-items-stretch">
+              <div class="card text-center">
+                <div class="card-header text-uppercase permanent-blue" style="fontSize:1.35em">
+                  Entretien des espaces verts
+                </div>
+                <div class="card-body oswald">
+                  <p class="card-text "><strong>Clean Nettoyage</strong> effectue tous travaux de création, aménagement et entretien d’espaces
+                    verts, d’entretien de jardin, paysagiste, tonte pelouse, aménagement de jardins, taille d’arbres et
+                    taille des haies, élagage, abattage, entretien espaces verts. Contrats d’entretien syndics de
+                    copropriétés, professionnels, particuliers</p>
+
+                </div>
+                <div class="card-footer text-muted">
+                  <a href="#sec3" class="btn btn-primary">Demander un devis</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4 col-sm-12 d-flex align-items-stretch">
+              <div class="card text-center">
+                <div class="card-header text-uppercase permanent-blue" style="fontSize:1.35em">
+                  Services à la personne
+                </div>
+                <div class="card-body">
+                  <p class="card-text oswald">
+
+                    <strong>Clean Nettoyage</strong> apporte son expertise pour les services à la personne si vous
+                    recherchez une aide à domicile pour le ménage, le jardinage ou le repassage.
+                    Nous sommes en mesure de réaliser le Ménage & Repassage ainsi que l’entretien de la maison.<br/>Nous pouvons intervenir pour la préparation des repas à domicile, le
+                    gardiennage et la surveillance temporaire de votre résidence principale et secondaire, les soins et
+                    promenades d’animaux domestiques pour les personnes dépendantes.
+                  </p>
+
+                </div>
+                <div class="card-footer text-muted">
+                  <a href="#sec3" class="btn btn-primary">Demander un devis</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-6 col-sm-12 mt-5 d-flex align-items-stretch">
+              <div class="card text-center">
+                <div class="card-header text-uppercase permanent-blue" style="fontSize:1.35em">
+                  Débarras encombrant
+                </div>
+                <div class="card-body">
+                  <p class="card-text oswald">
+
+                    <strong>Clean Nettoyage</strong> vous débarrasse de tous types d’encombrants à l’intérieur comme à l'extérieur.<br/>
+                    <strong>Clean Nettoyage</strong> s'occupe de tous types de lieux : appartements, caves, garages, granges, etc...
+                  </p>
+
+                </div>
+                <div class="card-footer text-muted">
+                  <a href="#sec3" class="btn btn-primary">Demander un devis</a>
+                </div>
               </div>
             </div>
 
 
+            <div class="col-md-6 col-sm-12 mt-5 d-flex align-items-stretch">
+              <div class="card text-center">
+                <div class="card-header text-uppercase permanent-blue" style="fontSize:1.35em">
+                  Les petits travaux de bricolage
+                </div>
+                <div class="card-body">
+                  <p class="card-text oswald">
+                    <strong>Clean Nettoyage</strong> s'est aussi spécialisé dans les petits travaux de bricolage, les petites réparations.
+                    <br/><strong>Clean Nettoyage</strong> s'engage sur la ponctualité. Nous réalisons les tâches rapidement et avec qualitée, que ce soit pour les devis ou pour une intervention à votre domicile.
+                    <br/>La qualité,c'est notre volonté.Faites-nous confiance.
+                  </p>
+
+                </div>
+                <div class="card-footer text-muted">
+                  <a href="#sec3" class="btn btn-primary">Demander un devis</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+  </section>
 
 
 
-    <section id="sec1">
-              <img src="../public/img/bar-vert.png" alt="" class="imgbar" style="width:100%"/>
-              <div class="box animated" style="position:relative">
-                <h3 class="text-center pt-3 permanent">Nos engagements</h3>
 
-                <div class="container">
-                  <div class="row text-center py-5 ">
+  <section id="sec3">
+    <div class="parallax-window" data-parallax="scroll" data-image-src="../public/img/parallax/nettoyageContact.jpg"
+      style="color:white;position:relative';zIndex:1000px">
+      <div class="container-fluid pt-5 ">
+        <div class="row">
+          <div class="col-md-12">
 
-                    <div class="col-sm-2 wow animated fadeInLeft ">
-                      <img src="../public/img/AccueilIcon/contrat.png" class="img-fluid" alt="" />
-                      <p class="oswald pt-2 ">Devis précis</p>
-                    </div>
+            <div class="row">
+              <div class="col-md-12 float-left">
+                <div class="card  bg-info wow animated zoomIn" style="position:absolute;right:30px">
+                  <div class="card-header ">
+                    <h3 class="mb-0 text-center oswald">Devis/Contact</h3>
+                  </div>
+                  <div class="card-body">
 
-                    <div class="col-sm-2 wow animated fadeInLeft">
-                      <img src="../public/img/AccueilIcon/deplacement.png" class="img-fluid" alt="" />
-                      <p class="oswald pt-2 ">Déplacement</p>
-                    </div>
+                    <form name="contact" method="POST" action="send" data-netlify-recaptcha="true" data-netlify="true">
+                      <div class="form-group">
+                        <div class="input-group-prepend">
+                          <span class="input-group-text" id="basic-addon1"><i class="fas fa-user"></i></span>
+                          <input type="text" class="form-control form-control-lg rounded-0" name="nom"
+                            placeholder="Votre nom" />
+                        </div>
+                      </div>
+                      <div class="form-group">
+                        <div class="input-group-prepend">
+                          <span class="input-group-text" id="basic-addon1"><i class="fas fa-user"></i></span>
+                          <input type="text" class="form-control form-control-lg rounded-0" name="prenom"
+                            placeholder="Votre prénom" />
 
-                    <div class="col-sm-2 wow animated fadeInLeft">
-                      <img src="../public/img/AccueilIcon/experience.png" class="img-fluid" alt="" />
-                      <p class="oswald pt-2 ">Expérience</p>
-                    </div>
+                        </div>
+                      </div>
 
-                    <div class="col-sm-2 wow animated fadeInRight">
-                      <img src="../public/img/AccueilIcon/ouvrier.png" class="img-fluid" alt="" />
-                      <p class="oswald pt-2 ">Compétences</p>
-                    </div>
+                      <div class="form-group">
+                        <div class="input-group-prepend">
+                          <span class="input-group-text" id="basic-addon1"><i class="fas fa-at"></i></span>
+                          <input type="text" class="form-control form-control-lg rounded-0" name="email"
+                            placeholder="Votre e-mail" />
 
-                    <div class="col-sm-2 wow animated fadeInRight">
-                      <img src="../public/img/AccueilIcon/ponctualité.png" class="img-fluid" alt="" />
-                      <p class="oswald pt-2 ">Rapidité</p>
-                    </div>
+                        </div>
+                      </div>
 
-                    <div class="col-sm-2 wow animated fadeInRight">
-                      <img src="../public/img/AccueilIcon/telephone.png" class="img-fluid" alt="" />
-                      <p class="oswald pt-2 ">Disponibilité</p>
-                    </div>
+                      <div class="form-group">
+                        <div class="input-group-prepend">
+                          <span class="input-group-text" id="basic-addon1"><i class="far fa-envelope-open"></i></span>
+                          <textarea class="form-control" name="message" placeholder="Votre message"></textarea>
 
+                        </div>
+                      </div>
 
+                      <div>
+                      </div>
+                      <button type="submit" class="btn btn-success btn-block float-right" id="btnLogin">Envoyer</button>
+                    </form>
                   </div>
                 </div>
-                <div class="col-12 boxText">
-                  <h5 class="oswald text-center text-muted wow fadeIn">Faites appel à notre société afin de profiter de notre <span class="permanent-red">savoir-faire</span> et de notre <span class="permanent-red">expérience</span> dans la réalisation des <span class="permanent-red">travaux de nettoyage</span> et de <span class="permanent-red">propreté professionnelle</span>. </h5>
-                </div>
-                <img src="../public/img/bar-vert2.png" alt="" class="imgbar" style="position:absolute; bottom: '0'" />
               </div>
-            </section>
-
-
-
-
-
-
-
-          <section id="prestation" class="pt-5">
-             <div>
-                <section class="my-5">
-                        <div class="container-fluid wow animated flipInY delay-1s">
-                    <div class="row">
-                        <div class="col-md-4 col-sm-12 d-flex align-items-stretch">
-                            <div class="card text-center">
-                                <div class="card-header text-uppercase permanent-blue" style="fontSize:1.35em">
-                                Nettoyage et propreté
-                                </div>
-                                <div class="card-body">
-                                    <p class="card-text oswald">
-                                    
-                Entreprise de nettoyage, Clean Nettoyage effectue tous travaux de nettoyage : 
-                nettoyage industriel, nettoyage particulier, nettoyage bureau, nettoyage vitre, ménage, nettoyage sol et moquette, nettoyage camping, nettoyage après sinistre, nettoyage parking, nettoyage par balayage mécanique, nettoyage tertiaire, nettoyage de grande distribution, nettoyage de collectivités, nettoyage dans la santé, nettoyage dans l’hôtellerie, nettoyage dans la restauration.
-    
-                                    </p>
-                                   
-                                </div>
-                                <div class="card-footer text-muted">
-                                <a href="#sec3" class="btn btn-primary">Demander un devis</a>
-                                </div>
-                                </div>
-                                </div>
-    
-                                <div class="col-md-4 col-sm-12 d-flex align-items-stretch">
-                            <div class="card text-center">
-                                <div class="card-header text-uppercase permanent-blue" style="fontSize:1.35em">
-                                Entretien des espaces verts
-                                </div>
-                                <div class="card-body oswald">
-                                    <p class="card-text ">Nous effectuons tous travaux de création, aménagement et entretien d’espaces verts, d’entretien de jardin, paysagiste, tonte pelouse, aménagement de jardins, taille d’arbres et taille des haies, élagage, abattage, entretien espaces verts. Contrats d’entretien syndics de copropriétés, professionnels, particuliers</p>
-                                    
-                                </div>
-                                <div class="card-footer text-muted">
-                                <a href="#sec3" class="btn btn-primary">Demander un devis</a>
-                                </div>
-                                </div>
-                                </div>
-    
-                                <div class="col-md-4 col-sm-12 d-flex align-items-stretch">
-                            <div class="card text-center">
-                                <div class="card-header text-uppercase permanent-blue" style="fontSize:1.35em">
-                                Services à la personne
-                                </div>
-                                <div class="card-body">
-                                    <p class="card-text oswald">
-    
-                            Nous pouvons également vous apporter notre expertise pour les services à la personne si vous recherchez une aide à domicile pour le ménage, le jardinage ou le repassage.
-                            Nous sommes en mesure de réaliser le Ménage & Repassage ainsi que l’entretien de la maison. Clean Nettoyage s’occupe aussi du jardinage. Nous pouvons intervenir pour la préparation des repas à domicile, le gardiennage et la surveillance temporaire de votre résidence principale et secondaire, les soins et promenades d’animaux domestiques pour les personnes dépendantes.
-                            </p>
-                                    
-                                </div>
-                                <div class="card-footer text-muted">
-                                <a href="#sec3" class="btn btn-primary">Demander un devis</a>
-                                </div>
-                                </div>
-                                </div>
-                            </div>
-                        </div>
-                </section>
             </div>
-            </section>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 
 
 
-
-<section id="sec3">
-        <div class="parallax-window" data-parallax="scroll" data-image-src="../public/img/parallax/nettoyageContact.jpg" style="color:white;position:relative';zIndex:1000px">
-                 <div class="container-fluid pt-5 ">
-                     <div class="row" >
-                         <div class="col-md-12"  >
-                             
-                             <div class="row">
-                                 <div class="col-md-12 float-left">
-                                     <div class="card  bg-info wow animated zoomIn" style="position:absolute;right:30px">
-                                         <div class="card-header " >
-                                             <h3 class="mb-0 text-center oswald">Devis/Contact</h3>
-                                         </div>
-                                         <div class="card-body">
-                                           
-                                            <form name="contact" method="POST" action="send" data-netlify-recaptcha="true" data-netlify="true" >
-                                                 <div class="form-group">
-                                                     <div class="input-group-prepend">
-                                                         <span class="input-group-text" id="basic-addon1"><i class="fas fa-user"></i></span>
-                                                     <input type="text" class="form-control form-control-lg rounded-0" name="nom"   placeholder="Votre nom" />
-                                                     </div>
-                                                 </div>
-                                                 <div class="form-group">
-                                                 <div class="input-group-prepend">
-                                                         <span class="input-group-text" id="basic-addon1"><i class="fas fa-user"></i></span>
-                                                     <input type="text" class="form-control form-control-lg rounded-0" name="prenom"   placeholder="Votre prénom"/>
-                                                   
-                                                 </div>
-                                                 </div>
- 
-                                                 <div class="form-group">
-                                                 <div class="input-group-prepend">
-                                                         <span class="input-group-text" id="basic-addon1"><i class="fas fa-at"></i></span>
-                                                     <input type="text" class="form-control form-control-lg rounded-0" name="email"   placeholder="Votre e-mail" />
-                                                   
-                                                 </div>
-                                                 </div>
- 
-                                                 <div class="form-group">
-                                                 <div class="input-group-prepend">
-                                                         <span class="input-group-text" id="basic-addon1"><i class="far fa-envelope-open"></i></span>
-                                                         <textarea class="form-control"  name="message"  placeholder="Votre message" ></textarea>
-                                                   
-                                                 </div>
-                                                 </div>
- 
-                                                 <div>
-                                                 </div>
-                                                 <button type="submit" class="btn btn-success btn-block float-right" id="btnLogin">Envoyer</button>
-                                                 </form>
-                                         </div>
-                                     </div>
-                                 </div>
-                             </div>
-                         </div>
-                     </div>
-                     </div>
-                 </div>
-</section>
-
-
-
- <div id="leafletmap" class="wow animated bounceInRight"><span style="visibility:hidden">ss<br/>ss<br/>ss<br/>ss<br/>ss<br/>ss<br/>ss<br/>ss<br/>ss<br/>ss<br/>ss<br/>ss<br/>ss<br/>ss<br/>ss<br/>ss<br/></span></div>
+  <div id="leafletmap" class="wow animated bounceInRight"><span
+      style="visibility:hidden">ss<br />ss<br />ss<br />ss<br />ss<br />ss<br />ss<br />ss<br />ss<br />ss<br />ss<br />ss<br />ss<br />ss<br />ss<br />ss<br /></span>
+  </div>
 
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
   <script src="../public/js/parallax/parallax.min.js"></script>
   <script src="../public/js/smoothScroll.js"></script>
-   <script src="https://unpkg.com/leaflet@1.4.0/dist/leaflet.js"
- integrity="sha512-QVftwZFqvtRNi0ZyCtsznlKSWOStnDORoefr1enyq5mVL4tmKB3S/EnC3rRJcxCPavG10IcrVGSmPh6Qw5lwrg=="
- crossorigin=""></script>
+  <script src="https://unpkg.com/leaflet@1.4.0/dist/leaflet.js"
+    integrity="sha512-QVftwZFqvtRNi0ZyCtsznlKSWOStnDORoefr1enyq5mVL4tmKB3S/EnC3rRJcxCPavG10IcrVGSmPh6Qw5lwrg=="
+    crossorigin=""></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
     integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
     crossorigin="anonymous"></script>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
 
-    <script>
-   map = L.map('leafletmap').setView([43.1740703, 2.9863152], 16);
-        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-            attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
-        }).addTo(map);
+  <script>
+    map = L.map('leafletmap').setView([43.1740703, 2.9863152], 16);
+    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+      attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+    }).addTo(map);
 
-        L.marker([43.1740703, 2.9863152]).addTo(map)
-    .bindPopup('Nous sommes ici')
-    .openPopup();
-</script>
+    L.marker([43.1740703, 2.9863152]).addTo(map)
+      .bindPopup('Nous sommes ici.  <br/> 11 Rue de l\'Artisanat, 64110 Jurançon')
+      .openPopup();
+  </script>
 
-<script>
-      new WOW().init();
-      </script>
+  <script>
+    new WOW().init();
+  </script>
 </body>
 
 </html>
